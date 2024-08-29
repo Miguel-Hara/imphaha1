@@ -66,11 +66,11 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url = "https://t.me/Shubham_X_Official")
     ],[
-        InlineKeyboardButton('• ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ •', url='https://t.me/Mr_Persis_Support_group'),
-        InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •', url='https://t.me/MR_Persis_Bot')
+        InlineKeyboardButton('• ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ •', url='https://t.me/unreal_X_support'),
+        InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •', url='https://t.me/unreal_X_bot')
 	]]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await client.send_message(message.chat.id, f"<b>👋 Hi {message.from_user.mention}, I am Save Restricted Content Bot, I can send you restricted content by its post link.\n\nFor downloading restricted content /login first.\n\nKnow how to use bot by - /help</b>\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/SHUBHAM_X_OFFICIAL>ꜱʜᴜʙʜᴀᴍ</a> ", reply_markup=reply_markup, reply_to_message_id=message.id)
+    await client.send_message(message.chat.id, f"<b>👋 Hi {message.from_user.mention}, I am Save Restricted Content Bot, I can send you restricted content by its post link.\n\nFor downloading restricted content /login first.\n\nKnow how to use bot by - /help</b>\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/Unreal_X_bot>ᴜɴʀᴇᴀʟ ʙᴏᴛ 🌚</a> ", reply_markup=reply_markup, reply_to_message_id=message.id)
     return
 
 
