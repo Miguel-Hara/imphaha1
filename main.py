@@ -3,6 +3,9 @@
 from pyrogram import Client
 from pyromod import listen
 from config import API_ID, API_HASH, BOT_TOKEN
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 class Bot(Client):
 
